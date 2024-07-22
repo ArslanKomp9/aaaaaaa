@@ -1,0 +1,14 @@
+.bg-gray{
+    background-color: gray;
+}
+.bg-gray2{
+    background-color: #4D4D4D;
+}
+.bg-image{
+    background-image: url("../img/1\ \(12\).jpeg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}

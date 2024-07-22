@@ -1,0 +1,222 @@
+body {
+    color: rgb(51, 51, 51);
+    background-color: rgb(234, 234, 234);
+    margin: 0;
+}
+
+.d-block {
+    display: block;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.bg-image {
+    background-image: url('../1/01.png');
+    background-color: #ccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 900px;
+    flex: 0;
+}
+
+.bg-shadow {
+    background-color: rgba(0, 0, 0, .5);
+}   
+
+.btn {
+    background-color: green;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.input {
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.input::placeholder {
+    color: #ccc;
+}
+
+
+.lh-1 {
+    line-height: 1.5;
+}
+
+.trans:hover {
+    transform: scale(1.1);
+    transition: .6s;
+    cursor: pointer;
+}
+
+.grayscale {
+    transition: .6s;
+}
+
+.grayscale:hover {
+    filter: brightness(1.2);
+    transform: scale(1.03);
+}
+
+.box-shadow {
+    box-shadow: 3px 3px 7px white;
+}
+
+.health {
+    animation: example infinite 2s;
+}
+
+@keyframes example {
+    0% {
+        transform: scale(1);
+        color: white;
+    }
+
+    50% {
+        transform: scale(1.1);
+        color: red;
+    }
+
+    100% {
+        transform: scale(1);
+        color: white;
+    }
+}
+
+.bg-color {
+    background-image: linear-gradient(to bottom, #24292C, #738182);
+}
+
+.border-0 {
+    border: none;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+.line{
+    width: 120px;
+    min-height: 4px;
+    background-color: #B52B61;
+   
+}
+.h0{
+    font-size: 60px ;
+}
+
+.bg-image1 {
+    background-image: url('../1/Снимок\ экрана\ \(2\).png');
+    background-color: #ccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 900px;
+    flex: 0;
+}
+.bg-ar{
+    background-color: #FCE8EF;
+}
+.img_services{
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+    padding: 20px;
+    background-origin:content-box;
+}
+.bg-image2 {
+    background-image: url('../1/02.png');
+    background-color: #ccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1200px;
+    flex: 0;
+}
+.bg-image3 {
+    background-image: url('../1/Снимок\ экрана\ \(2\).png');
+    background-color: #ccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    flex: 0;
+}
+.bg-image4 {
+    background-image: url('../1/Снимок\ экрана\ \(2\).png');
+    background-color: #ccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    flex: 0;
+}
+.k{
+    border-radius: 100%;
+    margin-right: 120px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+}
+.bg{
+    border-color: #C07C99;
+}
+.border-1{
+    border-radius: 15px;
+    border-color: #C07C99;
+    height: 100%;
+    width: 90%;    
+}
+.w-99{
+    width: 370px;
+    height: 300px;
+    border-radius: 20px;
+}
+.kk{
+    width: 20%;
+}
+.border-3{
+    border-radius: 15px;
+    height: 20%; 
+    border-color: grey;   
+}
+.cc{
+    background-color: #F1F1F1;
+}
+.bg-image5 {
+    background-image: url('../1/Снимок\ экрана\ \(2\).png');
+    background-color: #ccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 580px;
+    flex: 0;
+}
